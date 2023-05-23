@@ -61,7 +61,7 @@ public class Pantalla {
 		getFrmPoolabcalculadora().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		getFrmPoolabcalculadora().getContentPane().setLayout(null);
 		
-		JLabel lblTitulo = new JLabel("Calculadora");
+		JLabel lblTitulo = new JLabel("CALCULADORA");
 		lblTitulo.setForeground(new Color(0, 0, 255));
 		lblTitulo.setFont(new Font("DialogInput", Font.BOLD, 22));
 		lblTitulo.setBounds(144, 5, 143, 20);
@@ -72,7 +72,7 @@ public class Pantalla {
 		getFrmPoolabcalculadora().getContentPane().add(txtEntraNumero1);
 		txtEntraNumero1.setColumns(10);
 		
-		JLabel lblResultado = new JLabel("El resultado de la operación es: ");
+		JLabel lblResultado = new JLabel("EL RESULTADO DE LA OPERACIÓN ES: ");
 		lblResultado.setForeground(new Color(64, 128, 128));
 		lblResultado.setFont(new Font("DialogInput", Font.BOLD, 16));
 		lblResultado.setBounds(60, 155, 330, 20);
